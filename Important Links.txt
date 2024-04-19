@@ -1,0 +1,5 @@
+1.Our Custom Dataset Link  :   
+https://universe.roboflow.com/milind-ashok-dadore/small-aerial-object-detection-fwbd7
+
+2.Google Colab for Custom Training MOdel (YOLOv5):
+https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov5-object-detection-on-custom-data.ipynb

@@ -1,0 +1,17 @@
+1. You will need a Roboflow API key. If you don't already have a Roboflow account, sign up for a free Roboflow account. Then, retrieve your API key from the Roboflow dashboard. Run the following command to set your API key in your coding environment:
+
+            export ROBOFLOW_API_KEY=<your api key>
+
+2.  pip install inference
+3.  pip install inference-gpu
+4.  Add Your API Key in both templates "Image/Video" button Link tag 
+          Example:  <li><a href="https://detect.roboflow.com/?model=small-aerial-object-detection-fwbd7&version=3&api_key=YOUR_API_Key" target="_blank">Video</a></li>
+5.  Run flaskapp.py
+
+
+
+Contributers:
+1.Milind Dadore
+2.Nikhil Richhariya
+3.Nipun Kupatkar
+4.Pranav Rathi

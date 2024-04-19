@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ObjectDetection-YOLOv8</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: black; /* Background color */
+            color: white; /* Text color */
+        }
+        hr{
+            border-top: 2px solid #BCE44C;
+        }
+        header.feature-box.right {
+            background-color: black; /* Background color */
+            color: white;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px; 
+            
+        }
+
+        header.feature-box.right .company-name {
+            font-weight: bold;
+            font-size: 42px; /* Increased font size by 50% */
+            color: white; /* Text color */
+            margin-right: auto;
+        }
+
+        header.feature-box.right nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        header.feature-box.right nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        header.feature-box.right nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 10px;
+            border-radius: 5px;
+            transition: color 0.3s, background-color 0.3s; /* Added hover effect */
+        }
+
+        header.feature-box.right nav ul li a:hover {
+            color: black; /* Text color */
+            background-color: #BCE44C; /* Hover background color */
+        }
+
+        header.feature-box.below {
+            height: 450px; /* Decreased banner height */
+            background-color: #BCE44C; /* Color theme */
+            margin-top: 30px; /* Added top margin */
+            margin-bottom: 70px;
+            background-image: url("../static/images/banner1.jpg");
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-position-x: left;
+            /* background-position: center; */
+        }
+
+        header.feature-box.below hr {
+            border: none;
+            border-top: 2px solid #BCE44C; /* Horizontal line color */
+            margin: 0;
+            padding: 0;
+        }
+
+        .details {
+            padding: 0px;
+            font-size: 40px;
+            background-color: #BCE44C; /* Color theme */
+            text-align: center;
+            margin-bottom: -30px;
+            color: black; /* Text color */
+        }
+
+        .features {
+            background: black; /* Background color */
+            color: white; /* Text color */
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+        }
+
+        .features figure {
+            width: 400px;
+            margin: auto;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .features figure img {
+            border: 7px solid #BCE44C;
+            border-radius: 5%;
+            width: 400px;
+            height: 250px;
+        }
+
+        div.main {
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            letter-spacing: 1px;
+        }
+
+        div.main h1{
+            font-size: 40px;
+        }
+        div.main h4{
+            margin-bottom: 0px;
+        }
+
+        div.main p{
+            margin-left: 20px;
+            margin-top: 0px;
+        }
+
+        .subpart2 {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .subpart2 figure img {
+            height: 600px;
+            width: 500px;
+        }
+
+        .contactpage {
+            margin: 20px;
+            padding: 20px; /* Added padding */
+        }
+
+        #textbox {
+            font-size: 18pt;
+            height: 42px;
+            width: 1000px;
+        }
+
+        #textboxes {
+            font-size: 18pt;
+            height: 42px;
+            width: 1000px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<header class="feature-box right">
+    <div class="company-name">Live Webcam Inferencing</div>
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="https://detect.roboflow.com/?model=small-aerial-object-detection-fwbd7&version=3&api_key=YOUR_API_Key" target="_blank">Video</a></li>
+            <li><a href="/webcam">LiveWebcam</a></li>
+        </ul>
+    </nav>
+</header>
+<hr>
+
+
+</body>
+</html>
